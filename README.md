@@ -43,3 +43,5 @@ SES = SimpleExpSmoothing(train_ts, initialization_method='estimated').fit() will
 'smoothing_level': np.float64(0.6493087598800544),
 
 The 12 month MA has a Root Mean Squared Error (RMSE) : 666.4985 and SES has a Root Mean Squared Error (RMSE) : 688.4870. The 12 month MA seems to do better.
+In order to capture seasonality, We will want to use the Single Exponential Smoothing. 
+
